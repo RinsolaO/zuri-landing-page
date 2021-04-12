@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;]
+}
+
+.nav-bar img {
+    padding-top: 3rem;
+    padding-left:  3rem;   
+    width: 200px;
+    height: 49.78px;
+}
+
+.nav-bar ul {
+    font-size: 16px;
+    display: flex;
+    list-style: none;
+    padding-right:  5rem;   
+    
+}
+
+.nav-bar li {
+    padding-right: 1rem;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;      
+}
+
+.register a {
+    color: #0070D1; 
+ 
+}
+.dash {
+    position: absolute;
+    width: 61px;
+    height: 3px;
+    background-color: #0070D1; 
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "grid-left grid-right";
+    align-items: center;
+}
+
+.grid-left {
+    text-align: center;
+    width: 600px;
+    margin-left: 2rem;
+    font-size: 48px;
+    /* padding-top: 20rem; */
+}
+
+h4, h5, p {
+    text-align: center;
+    
+}
+
+.grid-right h5 {
+    margin-top: -1rem;
+    color: #0070D1;     
+}
+.grid-right p {
+    font-size: 16px;
+    color: #666666;
+    
+}
+
+form {
+    margin-top : 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-flex {
+    display: flex;
+    align-items: center;
+    /* align-content: flex-start; */
+}
+
+.mini-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mini-block input, select{
+    margin-top: -.9rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: #333333;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    border: 1px hidden #333333;
+    color: white;
+}
+
+.mini-block select {
+    height: 35px;    
+}
+.start input {
+    background: #333333;
+    border-radius: 5px;
+    width: 420px;
+    height: 30px;
+    border: 1px hidden #333333;
+    margin-bottom: .1rem;
+    color: white;
+    margin-top: -.9rem;
+    
+}
+
+form input:hover, select:hover {
+    border-radius: 3px;
+    outline: 3px groove #0070D1;
+}
+
+.start {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        
+}
+
+.submit-flex {
+    margin-left: 10rem;
+}
+.submit-flex a {
+    text-decoration: none;
+    color: #888888;
+    font-size: 16px;
+    margin-right: 1.5rem;
+}
+
+.submit-btn {
+    width: 90px;
+    height: 40px;
+    background-color: #0070D1;
+    color: white;
+    border: 1px hidden;
+    border-radius: 10px;
+}
+
+.link2 a:hover, .submit-flex a:hover {
+    text-decoration: underline;
+    color: #0070D1;
+} 
+
+.submit-btn:hover {
+    background-color: rgb(34, 54, 119);
+    outline-color: rgb(163, 204, 238);
+}
+
+.start select {
+    width: 428px;
+    height: 33px;
+}
